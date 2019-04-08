@@ -40,10 +40,26 @@ export default {
             axisLine: {
               lineStyle: { color: '#ccc' }
             },
-            data: ['-', '-', '-', '-', '-']
+            data: [
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-'
+            ]
           },
           {
-            name: '産業？',
+            name: '国籍',
             nameLocation: 'start',
             nameTextStyle: {
               fontWeight: 'bold'
@@ -63,10 +79,26 @@ export default {
               inside: true
             },
             // inverse: true,
-            data: ['item 1', 'item 2', 'item 3', 'item 4', 'item 5']
+            data: [
+              '中国',
+              '韓国',
+              '台湾',
+              '香港',
+              'アメリカ',
+              '中国',
+              '韓国',
+              '台湾',
+              '香港',
+              'アメリカ',
+              '中国',
+              '韓国',
+              '台湾',
+              '香港',
+              'アメリカ'
+            ]
           },
           {
-            name: '商品名',
+            name: '期間',
             nameLocation: 'start',
             nameTextStyle: {
               fontWeight: 'bold'
@@ -86,54 +118,137 @@ export default {
               inside: true
             },
             // inverse: true,
-            data: ['APP数据分析', 'DMP', '企业版', '移动广告鉴别', '']
+            data: ['2017年', '2018年', '2019年']
           }
         ],
         series: [
           {
             type: 'bar',
-            data: [220, 182, 191, 234, 290],
+            stack: true,
+            data: [
+              220,
+              182,
+              191,
+              234,
+              290,
+              220,
+              182,
+              191,
+              234,
+              290,
+              220,
+              182,
+              191,
+              234,
+              290
+            ],
             label: {
               normal: {
                 show: true,
                 position: 'bottom',
                 textStyle: { color: '#000' },
-                formatter: '合同金额'
+                formatter: '項目1'
               }
             }
           },
           {
             type: 'bar',
-            data: [210, 132, 91, 204, 220],
+            stack: true,
+            data: [
+              210,
+              132,
+              91,
+              204,
+              220,
+              210,
+              132,
+              91,
+              204,
+              220,
+              210,
+              132,
+              91,
+              204,
+              220
+            ],
             label: {
               normal: {
                 show: true,
                 position: 'bottom',
                 textStyle: { color: '#000' },
-                formatter: '已收款'
+                formatter: '項目2'
               }
             }
           },
           {
             type: 'bar',
-            data: [120, 132, 131, 254, 278],
+            stack: true,
+            data: [
+              120,
+              132,
+              131,
+              254,
+              278,
+              120,
+              132,
+              131,
+              254,
+              278,
+              120,
+              132,
+              131,
+              254,
+              278
+            ],
             label: {
               normal: {
                 show: true,
                 position: 'bottom',
                 textStyle: { color: '#000' },
-                formatter: '应收款'
+                formatter: '項目3'
               }
             }
           },
           {
             type: 'bar',
-            data: ['-', '-', '-', '-', '-'],
+            data: [
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-'
+            ],
             xAxisIndex: 1
           },
           {
             type: 'bar',
-            data: ['-', '-', '-', '-', '-'],
+            data: [
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-',
+              '-'
+            ],
             xAxisIndex: 2
           }
         ]
